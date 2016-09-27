@@ -1,0 +1,37 @@
+Rails.application.routes.draw do
+  devise_for :users
+
+  root 'welcome#index'
+  get "environment" => "welcome#environment"
+  get "page" => "welcome#page"
+  get "login" => "welcome#login"
+  get "bootstrap" => "welcome#bootstrap"
+  get "ja" => "welcome#ja"
+  get "blog" => "welcome#blog"
+  get "validates" => "welcome#validates"
+  get "search" => "welcome#search"
+  get "association" => "welcome#association"
+  get "release" => "welcome#release"
+  get "contact" => "welcome#contact"
+  get "authentication" => "welcome#authentication"
+  get "github" => "welcome#github"
+  get "twitter" => "welcome#twitter"
+  get "error" => "welcome#error"
+  get "admin" => "welcome#admin"
+  get "comment" => "welcome#comment"
+  get "follow" => "welcome#follow"
+  get "like" => "welcome#like"
+  get "message" => "welcome#message"
+  get "s3" => "welcome#s3"
+  get "notification" => "welcome#notification"
+  get "ranking" => "welcome#ranking"
+  get "ecsite" => "welcome#ecsite"
+  get "evaluation" => "welcome#evaluation"
+  get "rspec" => "welcome#rspec"
+  get "html_css" => "welcome#html_css"
+  get "sass" => "welcome#sass"
+  get "js" => "welcome#js"
+  get "jquery" => "welcome#jquery"
+  get "angular" => "welcome#angular"
+
+end
