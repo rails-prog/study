@@ -1,4 +1,5 @@
 class WelcomeController < ApplicationController
+  before_action :authenticate_user!
   def index
   end
 
@@ -80,18 +81,18 @@ class WelcomeController < ApplicationController
   def rspec
   end
 
-  def html_css
-  end
+#  def html_css
+#  end
 
-  def sass
-  end
+#  def sass
+#  end
 
-  def js
-  end
+#  def js
+#  end
 
-  def jquery
-  end
+#  def jquery
+#  end
 
-  def angular
-  end
+#  def angular
+#  end
 end

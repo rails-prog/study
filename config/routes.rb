@@ -28,10 +28,10 @@ Rails.application.routes.draw do
   get "ecsite" => "welcome#ecsite"
   get "evaluation" => "welcome#evaluation"
   get "rspec" => "welcome#rspec"
-  get "html_css" => "welcome#html_css"
-  get "sass" => "welcome#sass"
-  get "js" => "welcome#js"
-  get "jquery" => "welcome#jquery"
-  get "angular" => "welcome#angular"
+#  get "html_css" => "welcome#html_css"
+#  get "sass" => "welcome#sass"
+#  get "js" => "welcome#js"
+#  get "jquery" => "welcome#jquery"
+#  get "angular" => "welcome#angular"
 
 end
